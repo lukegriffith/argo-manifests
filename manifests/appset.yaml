@@ -1,3 +1,12 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: guestbook
+spec: {}
+status: {}
+---
 # This is an example of a typical ApplicationSet which uses the cluster generator.
 # An ApplicationSet is comprised with two stanzas:
 #  - spec.generator - producer of a list of values supplied as arguments to an app template
